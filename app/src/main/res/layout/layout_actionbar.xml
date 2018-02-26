@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="115dp"
+    android:background="@drawable/actionbar_back"
+    android:theme="@style/Theme.AppCompat.NoActionBar">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/actionbar_menu"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/actionbar_menu" />
+
+        <TextView
+            android:id="@+id/actionbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="靑出於藍"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_below="@+id/actionbar_menu"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorTextPrimary"/>
+
+        <ImageView
+            android:background="@color/colorTextPrimary"
+            android:layout_width="330dp"
+            android:layout_height="5px"
+            android:layout_below="@+id/actionbar_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>

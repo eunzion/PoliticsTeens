@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/fragment_myjundang"
+    android:background="@color/colorBackground"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="115dp"
+        >
+       <!-- <LinearLayout
+            android:id="@+id/text_myjungdang"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+
+                android:textSize="15dp"
+                android:textColor="@color/colorText"
+                android:textAlignment="center"
+                android:gravity="center_vertical"
+                android:background="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="정당 탐색"
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorText"
+                android:textAlignment="center"
+                android:background="@color/colorPrimary"
+                />
+
+
+        </LinearLayout> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <co.ceryle.segmentedbutton.SegmentedButtonGroup
+            android:id="@+id/myjundang_buttonGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:sbg_animateSelector="fastOutSlowIn"
+            app:sbg_animateSelectorDuration="500"
+            app:sbg_backgroundColor="@color/colorPrimary"
+            app:sbg_position="1"
+            app:sbg_ripple="true"
+            app:sbg_rippleColor="@color/colorPrimary"
+            app:sbg_selectorColor="@color/colorSelect"
+            >
+            <Button
+                android:id="@+id/myjundang_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="10dp"
+                android:text="내 정당"
+                />
+            <Button
+                android:id="@+id/searchjundang_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="정당 탐색"
+                android:minHeight="10dp"/>
+        </co.ceryle.segmentedbutton.SegmentedButtonGroup>
+
+    </LinearLayout>
+        <Button
+            android:id="@+id/makingJundang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="118dp"
+            android:text="정당만들기" />
+    </RelativeLayout>
+
+</RelativeLayout>

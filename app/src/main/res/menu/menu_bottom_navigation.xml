@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_congress"
+        android:checked="true"
+        android:icon="@drawable/ic_call"
+        android:title="국회"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_myjungdang"
+        android:checked="false"
+        android:icon="@drawable/ic_chat"
+        android:title="정당"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_plaza"
+        android:checked="false"
+        android:icon="@drawable/ic_contact"
+        android:title="광장"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_magazine"
+        android:checked="false"
+        android:icon="@drawable/ic_contact"
+        android:title="매거진"
+        app:showAsAction="ifRoom" />
+</menu>

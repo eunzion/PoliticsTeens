@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="droidmentor.PoliticTeens_Client.Fragment.PlazaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="140dp"
+    android:id="@+id/relativeLayout">
+    <ImageView
+        android:id="@+id/plaza_title"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:background="@drawable/plaza_title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:id="@+id/plaza_new"
+        android:text="최신순"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_alignBaseline="@+id/plaza_hot"
+        android:layout_alignBottom="@+id/plaza_hot"
+        android:layout_alignRight="@+id/plaza_title"
+        android:layout_alignEnd="@+id/plaza_title" />
+    <TextView
+        android:id="@+id/plaza_hot"
+        android:textColor="@color/colorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="인기순"
+        android:layout_below="@+id/plaza_title"
+        android:layout_toRightOf="@+id/plaza_title"
+        android:layout_toEndOf="@+id/plaza_title"
+        android:layout_marginTop="16dp" />
+    <ImageView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorText"
+        android:layout_below="@id/plaza_new"
+        android:id="@+id/plaza_bar2"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/plaza_list"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:clipToPadding="false"
+        android:padding="5dp"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/plaza_item_post"
+        android:layout_below="@+id/plaza_bar2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorText"
+        android:layout_below="@id/plaza_list"
+        android:id="@+id/plaza_bar1"
+        />
+
+</RelativeLayout>
+</RelativeLayout>

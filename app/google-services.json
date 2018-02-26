@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "8753256410",
+    "firebase_url": "https://stacteenpolitic.firebaseio.com",
+    "project_id": "stacteenpolitic",
+    "storage_bucket": "stacteenpolitic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8753256410:android:70867dddfce4f907",
+        "android_client_info": {
+          "package_name": "droidmentor.PoliticTeens_Client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8753256410-kgekv697dpgn7rballeov95rft3vsdm7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "droidmentor.PoliticTeens_Client",
+            "certificate_hash": "42e1db09894538ce1b4bb3c08199605ea26b28ba"
+          }
+        },
+        {
+          "client_id": "8753256410-vn1bu9l0q0f54mt0d0q02g0gmvti8bdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmwQw5uTj_5SFOpUTAtuZVsoCdm7qMgzs"
+        },
+        {
+          "current_key": "AIzaSyBuTwCTzDh5WNZhoqhMZ8te_9cf8LOZHj0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8753256410-vn1bu9l0q0f54mt0d0q02g0gmvti8bdc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
